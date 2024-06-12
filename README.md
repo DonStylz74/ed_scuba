@@ -23,6 +23,9 @@ Enhance your FiveM server with an immersive diving experience tailored for the E
 - Easy Integration: Seamless addition to your existing ESX setup.
 - Customizable: Adjust settings in config.lua to suit your server.
 - Localization: Supports multiple languages via locale files.
+
+### Preview 
+<a href="https://www.youtube.com/watch?v=B5HTFTvI4-s"> https://www.youtube.com/watch?v=B5HTFTvI4-s </a>
  ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
