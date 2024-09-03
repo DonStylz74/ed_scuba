@@ -40,6 +40,28 @@ This is an example of how to list things you need to use the software and how to
 3. Place stream in your ressources folder
 4. Edit config and locales if you want
 5. Enjoy
+6. Add this item in items.lua for ox inventory
+
+		['scuba_set'] = {
+			label = 'Ensemble de plongée',
+			weight = 2000,
+			description = 'Équipement de plongée',
+			stack = false,
+			client = {
+				export = 'ed_scuba.wear'
+			}
+		},
+		['scuba_fins'] = {
+			label = 'Palmes de plongée',
+			weight = 200,
+			description = 'Équipement de plongée, aide à la natation',
+			stack = false,
+			client = {
+				export = 'ed_scuba.wear'
+			}
+		},
+
+
  ## License
 
 Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
