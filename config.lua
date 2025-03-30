@@ -16,19 +16,21 @@ Config.pedsFemale = {
 
 Config.EnableBlip = true -- enable blips for oxygen refill station
 
-Config.BlipsName = 'SeaPanda' -- blips name if enabled
+Config.BlipsName = 'Scuba Store' -- blips name if enabled
 
 Config.Locations = {
-    {pos = vector3(-1263.727, -1435.815, 4.351-1), heading = 125.733, model = "a_m_y_jetski_01"},
-    {pos = vector3(-216.583, 6552.067, 11.002-1), heading =  267.085, model = "cs_josef"},
-    
+    {pos = vector3(-1263.727, -1435.815, 4.351-1), heading = 125.733, model = "a_m_y_jetski_01"},  --Vespucci beach
+    {pos = vector3(1308.9880, 4362.0610, 41.5455-1), heading =  254.4355, model = "cs_josef"},  --  Grapeseed
+    {pos = vector3(-1600.6663, 5204.2441, 4.3101-1), heading =  25.5671, model = "cs_josef"},  --Paleto Cove
+    {pos = vector3(3817.1997, 4483.0928, 6.3654-1), heading =  206.2764, model = "cs_josef"},  --San Chianski Mtn
+    {pos = vector3(-3420.6746, 979.5411, 8.3467-1), heading =  1.4250, model = "cs_josef"},  --Chumush 
 }
 
 Config.Currency = '$'
-Config.refillPrice = 250
+Config.refillPrice = 300
 
-Config.prixTenuedeplongee = 0
-Config.prixpalmesplongee = 0
+Config.prixTenuedeplongee = 5000
+Config.prixpalmesplongee = 1000
 
 -- ped component variations configuration
 -- below is default ped assets, only added streamed scuba asset files
