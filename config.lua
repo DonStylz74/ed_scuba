@@ -35,9 +35,9 @@ Config.prixpalmesplongee = 1000
 -- ped component variations configuration
 -- below is default ped assets, only added streamed scuba asset files
 -- some may different if server have other replaced ped assets
-Config.maleScubaVariation = 124 -- the scuba component number of the included stream file
+Config.maleScubaVariation = 151 -- the scuba component number of the included stream file
 Config.femaleScubaVariation = 154 -- the scuba component number of the included stream file
-Config.maleScubaMaskVariation = 26
+Config.maleScubaMaskVariation = 0
 Config.femaleScubaMaskVariation = 28
 Config.maleSwimFins = 67
 Config.femaleSwimFins = 70
