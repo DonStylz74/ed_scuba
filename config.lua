@@ -29,20 +29,20 @@ Config.Locations = {
 Config.Currency = '$'
 Config.refillPrice = 300
 
-Config.prixTenuedeplongee = 5000
-Config.prixpalmesplongee = 1000
+Config.prixTenuedeplongee = 3500
+Config.prixpalmesplongee = 350
 
 -- ped component variations configuration
 -- below is default ped assets, only added streamed scuba asset files
 -- some may different if server have other replaced ped assets
 Config.maleScubaVariation = 151 -- the scuba component number of the included stream file
-Config.femaleScubaVariation = 154 -- the scuba component number of the included stream file
+Config.femaleScubaVariation = 153 -- the scuba component number of the included stream file
 Config.maleScubaMaskVariation = 0
 Config.femaleScubaMaskVariation = 28
 Config.maleSwimFins = 67
 Config.femaleSwimFins = 70
 
-Config.fulltank = 400 -- full oxygen tank capacity, measure duration in seconds
+Config.fulltank = 330 -- full oxygen tank capacity, measure duration in seconds
 
 Config.scubalightKeybind = 'H' -- default keybind to switch scuba flashlight on/off
 Config.refillCommand = 'oxyrefill' -- command to manually refill oxygen tank capacity
